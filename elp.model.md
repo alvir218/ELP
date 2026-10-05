@@ -1,0 +1,153 @@
+
+# entidades
+- lobbymain
+- lobbysub
+- nova regra
+- postagem
+- rede
+- referência
+- regra
+- regraprincipal
+- regrasub
+- resposta
+- resposta de resposta
+- usuário
+- votação
+- votação de resposta
+- votação de resposta de resposta
+
+
+
+# conjunto (revisar)
+- rede
+	- nova regra
+	- usuário
+	- postagem
+		- resposta
+			- resposta de resposta
+	- lobbymain
+		- lobbysub
+		- regrasprincipal
+			- regrassub
+				- regra
+	- referência
+	- votação
+		- votação de resposta
+		- votação de resposta de resposta
+
+# relacionamentos 2 (revisar)
+- rede
+	- usuário
+	- lobbymain
+	- lobbysub
+	- regra
+	- regraprincipal
+	- regrasub
+	- votação
+	- referência
+	- postagem
+	- resposta
+	- resposta de resposta
+	- votação de resposta de resposta
+- lobbymain
+	- usuário
+	- lobbymain
+	- lobbysub
+	- regraprincipal
+	- regrasub
+	- votação
+	- referência
+	- postagem
+	- resposta
+	- resposta de resposta
+	- votação de resposta d resposta
+- lobbysub
+	- postagem
+	- referência
+	- regra
+	- regraprincipal
+	- regrasub
+	- resposta
+	- resposta de resposta
+	- usuário
+	- votação
+	- votação de resposta
+	- votação de resposta de resposta
+- nova regra
+	- votação
+	- postagem
+	- referência
+	- regra
+	- regraprincipal
+	- regrasub
+	- resposta
+	- resposta de resposta
+	- usuário
+	- votação de resposta
+	- votação de resposta de resposta
+- postagem
+	- referência
+	- regra
+	- regraprincipal
+	- regrasub
+	- resposta
+	- resposta de resposta
+	- usuário
+	- votação
+	- votação de resposta
+	- votação de resposta de resposta
+- referência
+	- lobbymain
+	- lobbysub
+	- postagem
+	- regra
+	- regraprincipal
+	- regrasub
+	- resposta
+	- resposta de resposta
+	- usuário
+	- votação
+	- votação de resposta
+	- votação de resposta de resposta
+- regra
+	- referência
+	- votação
+- regraprincipal
+	- referência
+	- votação
+- regrasub
+	- referência
+	- votação
+- resposta
+	- referência
+	- resposta de resposta
+	- usuário
+	- votação de resposta
+	- votação de resposta de resposta
+- resposta de resposta
+	- postagem
+	- referência
+	- usuário
+	- votação de resposta de resposta
+- usuário
+	- lobbymain
+	- lobbysub
+	- postagem
+	- referência
+	- regra
+	- regraprincipal
+	- regrasub
+	- resposta
+	- resposta de resposta
+	- votação
+	- votação de resposta
+	- votação de resposta de resposta
+- votação
+	- usuário
+- votação de resposta
+	- usuário
+	- votação
+- votação de resposta de resposta
+	- usuário
+	- votação
+
