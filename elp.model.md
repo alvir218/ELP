@@ -1,5 +1,5 @@
-
 # entidades
+- lobbyexternal
 - lobbymain
 - lobbysub
 - nova regra
@@ -25,7 +25,7 @@
 	- postagem
 		- resposta
 			- resposta de resposta
-	- lobbymain
+	- lobbymain 
 		- lobbysub
 		- regrasprincipal
 			- regrassub
@@ -34,10 +34,15 @@
 	- votação
 		- votação de resposta
 		- votação de resposta de resposta
+- lobbyexternal
+	- regrasprincipal
+		- regrassub
+			- regra
 
-# relacionamentos 2 (revisar)
+# grafo entidade relacionamento (revisar)
 - rede
 	- usuário
+	- lobbyexternal
 	- lobbymain
 	- lobbysub
 	- regra
@@ -49,9 +54,22 @@
 	- resposta
 	- resposta de resposta
 	- votação de resposta de resposta
+- lobbyexternal
+	- lobbymain
+	- lobbysub
+	- postagem
+	- referência
+	- regra
+	- regraprincipal
+	- regrasub
+	- resposta
+	- resposta de resposta
+	- usuário
+	- votação
+	- votação de resposta
+	- votação de resposta de resposta
 - lobbymain
 	- usuário
-	- lobbymain
 	- lobbysub
 	- regraprincipal
 	- regrasub
@@ -150,4 +168,3 @@
 - votação de resposta de resposta
 	- usuário
 	- votação
-
