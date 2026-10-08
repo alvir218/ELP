@@ -1,8 +1,16 @@
 # entidades
+- acusação
+- atualizar regra
+- cancelar regra
+- defensoria
+- evento
+- julgamento
 - lobbyexternal
 - lobbymain
 - lobbysub
+- mobilização
 - nova regra
+- oposição
 - postagem
 - rede
 - referência
@@ -11,12 +19,11 @@
 - regrasub
 - resposta
 - resposta de resposta
+- tratado
 - usuário
 - votação
 - votação de resposta
 - votação de resposta de resposta
-
-
 
 # conjunto (revisar)
 - rede
